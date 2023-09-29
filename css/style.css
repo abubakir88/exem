@@ -1,0 +1,39 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import "./header.min.css";
+@import "./footer.min.css";
+@import "./navbar.min.css";
+@import "./main.min.css";
+/* @import "./hero.css"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+  /* --color-first: #ccc; */
+  /* --mar: 20px; */
+  /* font-size: 62.5%; */
+  /* font-size: 20px; */
+  /* scroll-behavior: smooth; */
+}
+
+html {
+  font-family: Montserrat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

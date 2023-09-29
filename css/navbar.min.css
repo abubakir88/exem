@@ -1,0 +1,52 @@
+.logo,
+nav {
+  font-family: Montserrat;
+}
+.nav-menu,
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav {
+  padding: 30px 0;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.navbar-shrink {
+  padding: 20px 0;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #252b42;
+  font-size: 24px;
+}
+.nav-menu {
+  display: flex;
+  gap: 21px;
+}
+.nav-link {
+  color: #737373;
+}
+.hero {
+  padding: 85px 0;
+}
+a:hover {
+  color: #000;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
